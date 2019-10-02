@@ -1,14 +1,13 @@
-import { Component, h } from "preact";
-import * as style from "./style.css";
+import { h, JSX } from "preact";
+import * as style from "./style.scss";
 
-interface Props {}
-export default class Home extends Component<Props> {
-    public render() {
-        return (
-            <div class={style.home}>
-                <h1>Home</h1>
-                <p>This is the Home component.</p>
-            </div>
-        );
-    }
+interface Props { };
+
+export default ({ }: Props): JSX.Element => {
+  return (
+    <div class={style.home}>
+      <h1>Home</h1>
+      <p>This is the Home component.</p>
+    </div>
+  );
 }
