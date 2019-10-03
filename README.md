@@ -1,4 +1,6 @@
-# Preact TypeScript starter project
+# Preact UTU starter project
+
+> Forked from **Preact TypeScript starter project**
 
 ## Documentation
 
